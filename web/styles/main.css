@@ -1,0 +1,59 @@
+* {
+   list-style-position: inside;
+   /* font-family: 'Roboto', sans-serif; */
+   font-family: 'Lucida Console';
+   color: #333;
+}
+
+@media screen and (min-width:500px)
+{
+   body, nav {
+      margin-left: 25%;
+      margin-right: 25%;
+   }
+   body.wide{
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+}
+
+.nav-list {
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+
+a:link, a:visited {
+   background-color: #d3d3d3;
+   color: #000000;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+
+a:hover, a:active {
+   background-color: #000000;
+   color: #ffffff;
+}
+
+/* .nav-item {
+   border-radius: 2px;
+}*/
+
+.quote {
+   font-style: italic;
+   font-family: 'calibri';
+}
+
+.profileCard {
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+}
+
+.basicInfo {
+   display: flex;
+   flex-direction: column;
+}

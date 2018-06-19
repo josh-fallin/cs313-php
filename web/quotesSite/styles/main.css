@@ -1,0 +1,151 @@
+* {
+   list-style-position: inside;
+   /* font-family: 'Roboto', sans-serif; */
+   font-family: 'Lucida Console';
+   color: #333;
+}
+
+body, nav {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media screen and (min-width:500px)
+{
+   body, nav {
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+}
+@media screen and (min-width:1200px)
+{
+   body, nav {
+      margin-left: 15%;
+      margin-right: 15%;
+   }
+}
+
+.nav-list {
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+}
+
+a:link, a:visited {
+   background-color: #d3d3d3;
+   color: #000000;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+
+a:hover, a:active {
+   background-color: #000000;
+   color: #ffffff;
+}
+
+.link-small {
+  padding: 7px 12px;
+}
+
+.link-smaller {
+  padding: 2px 5px;
+  font-size: .8em;
+}
+
+.text-small {
+  font-size: .8em;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .site-banner {
+} */
+
+.user-info {
+  margin-left: auto;
+}
+
+.login-container {
+  width: 250px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 0px 25px;
+  border: 3px solid;
+  border-radius: 3px;
+  box-shadow: 5px 5px grey;
+}
+
+.quote {
+   font-style: italic;
+   font-family: 'calibri';
+}
+
+.quote-box {
+  border: 4px solid;
+  margin-left: auto;
+}
+
+.add-quote-icon {
+  margin-right: auto;
+}
+
+div.add-quote-icon a {
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  padding: 10px;
+}
+
+/* commented properties are for alternate view of quotes */
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#searchbar {
+  margin-left: 40%;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+  transform: translateY(10px);
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.svg-icon-green path,
+.svg-icon-green polygon,
+.svg-icon-green rect {
+  fill: green;
+}
+
+.svg-icon-green circle {
+  stroke: green;
+  stroke-width: 1;
+}
